@@ -1,7 +1,6 @@
 {
-    "compilerOptions": {
-        "lib": ["es6","dom"],
-        "downlevelIteration": true
-        
-      }
+  "compilerOptions": {
+    "lib": ["es6", "dom"],
+    "downlevelIteration": true
+  }
 }
