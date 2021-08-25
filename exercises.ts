@@ -50,3 +50,8 @@ function pow(a:number,b:number):number{
 }
 
 // console.log(pow(2,5));
+
+function pow2(a:number,b:number):number{
+    if(b==0)return 1;
+    return(a*pow2(a,b-1));
+}
